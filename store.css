@@ -33,7 +33,7 @@ body{
     text-decoration: none;
     background-color: rgb(235, 235, 235);
     width: 60%;
-    height: 2%;
+    height: 1%;
     text-align: center;
     padding: 50px;
     align-self: center;
@@ -116,6 +116,7 @@ body{
     padding: 50px;
     align-self: center;
     gap: -100px;
+}
 }
 @media only screen and (max-width:700px){
 #img1{
@@ -475,6 +476,5 @@ left: -190%;
 }
   /*card 2*/
 
-  
   
   
