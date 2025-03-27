@@ -126,13 +126,18 @@ body{
     top: 12%;
     cursor: pointer;
 }
-
+#connection{
+position: relative;
+width: 200px;
+margin-left: -450px;
+top: 100px;
+}
 #list1{
     position: relative;
     top: -330px;
     height: 57%;
     width: 60%;
-    z-index: 1000;
+    z-index: 1500;
 }
 a{
   text-align: center;
@@ -188,13 +193,12 @@ body{
   display: none;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  position: relative;
+  position: absolute;
   top: 400px;
   left: 140px;
   height: 100px;
   width: 130px;
   box-shadow: 0px 0px 20px 0px;
-  z-index: 1000px;
   z-index: 1000;
 }
 #a6{
@@ -318,7 +322,7 @@ left: -190%;
     fill: #b4b4b4;
   }
   /* From Uiverse.io by MuhammadHasann */ 
-.card {
+#card {
     --bg-card: #27272a;
     --primary: #6d28d9;
     --primary-800: #4c1d95;
@@ -474,7 +478,55 @@ left: -190%;
   position: relative;
   top: 0px;
 }
-  /*card 2*/
+  /*connection*/
+  #connection{
+    display: none;
+    height: 70px;
+    width: 500px;
+position: relative;
+left: 90%;
+background-color: rgb(217, 213, 213);
+height: 250px;
+top: 150px;
+  }
+  #span1{
+    left: 40%;
+    top: -120px;
+    position: relative;
+font-size:x-large;
+width: 200px;
+height: 40px;
+  }
+  #pass,#emm{
+    border-radius: 20px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+  #pass{
+    justify-self: center;
+    position: relative;
+    left: -180px;
 
-  
-  
+  }
+  #emm{
+    margin-left: 54px;
+    position: relative;
+    justify-self: center;
+    top: 50px;
+  }
+  #c{
+    left: 4%;
+    position: relative;
+    top: 100px;
+    left: -280px;
+    width: 60px;
+  }
+  #buc{
+    position: relative;
+    top: 180px;
+    left: -350px;
+    height: 40px;
+
+  }
+
