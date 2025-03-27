@@ -17,3 +17,7 @@ function annuler2(){
         document.getElementById("list1").style.display="none"
           document.getElementById("body").style.position="fixed"
         }
+function con(){
+        document.getElementById("card").style.display="none"
+        document.getElementById("connection").style.display="flex"
+    }
