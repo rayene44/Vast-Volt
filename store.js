@@ -1,4 +1,5 @@
 
+
 function list1(){
 document.getElementById("list1").style.display="flex"
  document.getElementById("list3").style.display="none"
@@ -18,6 +19,6 @@ function annuler2(){
           document.getElementById("body").style.position="fixed"
         }
 function con(){
-        document.getElementById("card").style.display="none"
+        document.getElementById("cards").style.display="none"
         document.getElementById("connection").style.display="flex"
     }
