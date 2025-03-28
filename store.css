@@ -558,6 +558,9 @@ cursor: pointer;
     white-space: nowrap;
     margin-top: 20px;
   }
+    body{
+    width: 98%;
+  }
 }
 #t1,#t2{
   height: 30px;
