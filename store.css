@@ -6,6 +6,7 @@ header{
     width: 100%;
     position: fixed;
     box-shadow:0px 0px 10px 0px;
+        z-index: 100;
 }
 #img1{
     display: none;
